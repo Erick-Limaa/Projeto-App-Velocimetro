@@ -1,0 +1,35 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css");
+
+[data-bs-theme="light"] {
+    --bs-primary-rgb: 53, 162, 139;
+}
+
+.btn-primary {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #35a28b;
+    --bs-btn-border-color: #35a28b;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #24826e;
+    --bs-btn-hover-border-color: #24826e;
+    --bs-btn-focus-shadow-rgb: 49, 132, 253;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #24826e;
+    --bs-btn-active-border-color: #24826e;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #35a28b;
+    --bs-btn-disabled-border-color: #35a28b;
+}
+
+#mapDetail {
+    height: 300px;
+    background-color: #3d3d3c;
+}
+
+#speed {
+    font-size: 120px;
+}
+
+#km-h {
+    font-size: 36px;
+}
